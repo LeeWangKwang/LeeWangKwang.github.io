@@ -35,7 +35,7 @@ $ echo "Hello World" > index.html
 Add, commit, and push your changes:
 
 ```
-$ git add -all
+$ git add --all
 $ git commit -m "Initial commit"
 $ git push -u origin master
 ```
