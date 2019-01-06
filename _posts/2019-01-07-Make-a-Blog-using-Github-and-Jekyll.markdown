@@ -9,7 +9,7 @@ categories: study
 
 ![Screenshot 2019-01-06 at 3.31.30 PM](/assets/githubscreenshot.png)
 
-##### Head over to GitHub and create a new repository named username.github.io, where username is your username (or organization name) on GitHub.
+ __Head over to GitHub and create a new repository named username.github.io, where username is your username (or organization name) on GitHub.__
 
 If the first part of the repository doesn’t exactly match your username, it won’t work, so make sure to get it right.
 
@@ -41,6 +41,7 @@ $ git push -u origin master
 ```
 
 …and you're done!
+
 Fire up a browser and go to https://username.github.io.
 
 ---
@@ -84,7 +85,7 @@ Now browse to http://localhost:4000
 ```
 $ git init
 $ git remote add origin https://github.com/username/username.github.io.git
-$ git add all
+$ git add --all
 $ git commit - m "first jekyll commit"
 $ git push
 ```
@@ -97,6 +98,6 @@ check it out on https://username.github.io.
 
 # References
 
-_**Github Page** https://pages.github.com/_
+[Github Page](https://pages.github.com/)
 
-_**Jekyll** https://jekyllrb.com/docs/_
+[Jekyll](https://jekyllrb.com/docs/)
