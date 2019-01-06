@@ -5,15 +5,15 @@ date: 2019-01-06 16:16::28 +0900
 categories: study
 ---
 
-#Create a repository on github
+# Create a repository on github
 
-![Screenshot 2019-01-06 at 3.31.30 PM](/assets/Screenshot%202019-01-06%20at%203.31.30%20PM.png)
+![Screenshot 2019-01-06 at 3.31.30 PM](/assets/githubscreenshot.png)
 
-#####Head over to GitHub and create a new repository named username.github.io, where username is your username (or organization name) on GitHub.
+##### Head over to GitHub and create a new repository named username.github.io, where username is your username (or organization name) on GitHub.
 
 If the first part of the repository doesn’t exactly match your username, it won’t work, so make sure to get it right.
 
-#Clone the repository
+# Clone the repository
 
 Go to the folder where you want to store your project, and clone the new repository:
 
@@ -21,7 +21,7 @@ Go to the folder where you want to store your project, and clone the new reposit
 $ git clone https://github.com/username/username.github.io
 ```
 
-#Hello World
+# Hello World
 
 Enter the project folder and add an index.html file:
 
@@ -30,7 +30,7 @@ $ cd username.github.io
 $ echo "Hello World" > index.html
 ```
 
-#Push It
+# Push It
 
 Add, commit, and push your changes:
 
@@ -44,33 +44,33 @@ $ git push -u origin master
 Fire up a browser and go to https://username.github.io.
 
 ---
-#Jekyll Quickstart on MacOS
+# Jekyll Quickstart on MacOS
 
 Jekyll is a simple, extendable, static site generator. You give it text written in your favorite markup language and it churns through layouts to create a static website. Throughout that process you can tweak how you want the site URLs to look, what data gets displayed in the layout, and more.
 
-###Install
+### Install
 
 ```
 $ sudo gem install jekyll bundler
 ```
 
-###Create a new Jekyll site
+### Create a new Jekyll site
 
 ```
 $ jekyll new username.github.io --force
 ```
 
-###Change Directory
+### Change Directory
 ```
 $ cd username.github.io
 ```
 
-###Delete index.html
+### Delete index.html
 ```
 $ rm index.html
 ```
 
-###Build the site and make it available on a local server
+### Build the site and make it available on a local server
 ```
 $ jekyll serve
 ```
