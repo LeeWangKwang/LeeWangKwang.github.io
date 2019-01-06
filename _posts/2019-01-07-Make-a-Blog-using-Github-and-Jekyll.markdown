@@ -93,6 +93,7 @@ __We're done__
 check it out on https://username.github.io.
 
 ---
-#References
+
+# References
 _**Github Page** https://pages.github.com/_
 _**Jekyll** https://jekyllrb.com/docs/_
